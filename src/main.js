@@ -1,13 +1,22 @@
 /*
- * Split Text by a new line.
+ * Split Text.
  * Yoshiki Takeoka
  */
-
 const { selection, Rectangle, Color, Text } = require('scenegraph');
 const commands = require('commands');
+const { alert } = require('@adobe/xd-plugin-toolkit/lib/dialogs.js');
 
-function split(separator) {
+async function showAlert() {
+  return alert('SplitText', 'Please select text element(s).');
+}
+
+async function split(separator) {
   const texts = selection.items.filter(element => element instanceof Text);
+
+  if (texts.length === 0) {
+    await showAlert();
+    return 1;
+  }
   texts.forEach(text => {
     const lines = text.text.split(separator);
     const lineGroup = [];
@@ -31,16 +40,17 @@ function split(separator) {
       commands.group();
     }
   });
+  return 0;
 }
 
-function splitbynewline() {
-  split('\n');
+async function splitbynewline() {
+  await split('\n');
 }
-function splitbytab() {
-  split('\t');
+async function splitbytab() {
+  await split('\t');
 }
-function splitbycomma() {
-  split(',');
+async function splitbycomma() {
+  await split(',');
 }
 
 module.exports = {

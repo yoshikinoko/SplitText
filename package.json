@@ -16,7 +16,9 @@
     "validate": "xdpm validate static"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@adobe/xd-plugin-toolkit": "0.0.1"
+  },
   "devDependencies": {
     "@adobe/xdpm": "^2.0.0",
     "@babel/core": "^7.3.4",
