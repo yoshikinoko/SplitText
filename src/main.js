@@ -1,5 +1,5 @@
 /*
- * Split Text.
+ * SplitText.
  * Yoshiki Takeoka
  */
 const { selection, Rectangle, Color, Text } = require('scenegraph');
