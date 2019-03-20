@@ -50,6 +50,8 @@ async function split(param) {
       }
       commands.group();
       selection.items[0].name = text.text;
+      // Hide original text not to overlap split text
+      text.visible = false;
     }
   });
   return 0;
