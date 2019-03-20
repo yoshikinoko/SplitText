@@ -1,10 +1,10 @@
 {
   "name": "SplitText",
   "id": "dc7ed958",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split Text by newlines, tabs and commas",
   "summary": "Split Text on newlines.",
-  "releaseNotes": "First release",
+  "releaseNotes": "Prompt warning if no texts were selected. \nHide original text not to overlap split text.",
   "keywords": ["utility", "productivity"],
   "languages": ["en", "de", "fr", "ja", "ko", "zh", "es", "pt"],
   "website": "https://github.com/yoshikinoko/SplitText",
