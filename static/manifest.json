@@ -1,6 +1,6 @@
 {
-  "name": "SplitText",
-  "id": "1c432711",
+  "name": "Split Text",
+  "id": "dc7ed958",
   "version": "1.0.0",
   "description": "Split Text by newlines, tabs and commas",
   "summary": "Split Text on newlines.",
