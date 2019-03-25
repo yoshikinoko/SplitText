@@ -2,7 +2,7 @@
   "name": "SplitText",
   "id": "dc7ed958",
   "version": "1.0.1",
-  "description": "Split Text by newlines, tabs and commas",
+  "description": "Split Text by newlines, tabs, and commas.\n(To split text by tabs, copy and paste text from another editor.)",
   "summary": "Split Text on newlines.",
   "releaseNotes": "Prompt warning if no texts were selected. \nHide original text not to overlap split text.",
   "keywords": ["utility", "productivity"],
@@ -69,21 +69,6 @@
         {
           "type": "menu",
           "label": {
-            "en": "Split Text by tabs",
-            "de": "Text nach Tabs teilen",
-            "fr": "Diviser le texte par onglets",
-            "ja": "タブでテキストを分割する",
-            "ko": "탭으로 텍스트 나누기",
-            "zh": "按选项卡拆分文本",
-            "es": "Dividir texto por pestañas",
-            "pt": "Dividir texto por tabulações",
-            "default": "Split Text by tabs"
-          },
-          "commandId": "splitbytab"
-        },
-        {
-          "type": "menu",
-          "label": {
             "en": "Split Text by commas",
             "de": "Text nach Kommas teilen",
             "fr": "Diviser le texte par des virgules",
@@ -95,6 +80,21 @@
             "default": "Split Text by commas"
           },
           "commandId": "splitbycomma"
+        },
+        {
+          "type": "menu",
+          "label": {
+            "en": "Split Text by tabs",
+            "de": "Text nach Tabs teilen",
+            "fr": "Diviser le texte par onglets",
+            "ja": "タブでテキストを分割する",
+            "ko": "탭으로 텍스트 나누기",
+            "zh": "按选项卡拆分文本",
+            "es": "Dividir texto por pestañas",
+            "pt": "Dividir texto por tabulações",
+            "default": "Split Text by tabs"
+          },
+          "commandId": "splitbytab"
         }
       ]
     }
