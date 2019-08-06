@@ -4,7 +4,7 @@
   "version": "1.0.3",
   "description": "Split Text by newlines, tabs, and commas.\n(To split text by tabs, copy and paste text from another editor.)",
   "summary": "Split Text on newlines.",
-  "releaseNotes": "Prompt warning if no texts were selected. \nHide original text not to overlap split text.",
+  "releaseNotes": "Minor updates.",
   "keywords": ["utility", "productivity"],
   "languages": ["en", "de", "fr", "ja", "ko", "zh", "es", "pt"],
   "website": "https://github.com/yoshikinoko/SplitText",
