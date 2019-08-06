@@ -2,7 +2,7 @@
  * SplitText.
  * Yoshiki Takeoka
  */
-const { selection, Rectangle, Color, Text } = require('scenegraph');
+const { selection, Text } = require('scenegraph');
 const commands = require('commands');
 const { alert } = require('@adobe/xd-plugin-toolkit/lib/dialogs.js');
 
