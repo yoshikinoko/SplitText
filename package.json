@@ -1,6 +1,6 @@
 {
   "name": "split_text",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is SplitText, an Adobe XD Plugin.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
