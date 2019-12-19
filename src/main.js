@@ -28,7 +28,6 @@ async function split(param) {
         const duplicated = selection.items[0];
         duplicated.text = line;
         duplicated.name = line;
-        duplicated.areaBox = null;
         lineGroup.push(duplicated);
       }
     });
