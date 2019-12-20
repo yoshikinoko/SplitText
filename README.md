@@ -1,9 +1,13 @@
-# SplitText 
+# SplitText
 
-[Adobe XD](https://www.adobe.com/products/xd.html) plugin to split text by newlines, tabs and commas.
+[Adobe XD](https://www.adobe.com/products/xd.html) plugin to split text by newlines, tabs, and commas.
 
 - Select text element
 - `Plugins` > `Split Text on newlines` to split the selected text on newlines.
+
+## Description
+Split Text by newlines, tabs, and commas.
+(To split text by tabs, copy and paste text from another editor.)
 
 ## How to install this plugin
 

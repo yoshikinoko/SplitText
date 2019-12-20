@@ -1,15 +1,7 @@
 {
   "name": "SplitText",
   "id": "dc7ed958",
-  "version": "1.0.3",
-  "description": "Split Text by newlines, tabs, and commas.\n(To split text by tabs, copy and paste text from another editor.)",
-  "summary": "Split Text on newlines.",
-  "releaseNotes": "Minor updates.",
-  "keywords": ["utility", "productivity"],
-  "languages": ["en", "de", "fr", "ja", "ko", "zh", "es", "pt"],
-  "website": "https://github.com/yoshikinoko/SplitText",
-  "author": "Yoshiki Takeoka",
-  "helpUrl": "https://github.com/yoshikinoko/SplitText",
+  "version": "1.0.5",
   "icons": [
     {
       "width": 24,
@@ -20,21 +12,6 @@
       "width": 48,
       "height": 48,
       "path": "images/icon@1x.png"
-    },
-    {
-      "width": 96,
-      "height": 96,
-      "path": "images/icon@2x.png"
-    },
-    {
-      "width": 144,
-      "height": 144,
-      "path": "images/icon@3x.png"
-    },
-    {
-      "width": 192,
-      "height": 192,
-      "path": "images/icon@4x.png"
     }
   ],
   "host": {
